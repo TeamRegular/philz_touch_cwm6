@@ -91,13 +91,13 @@ struct CWMSettingsIntValues menu_separator_transparency = { "menu_separator_tran
 struct CWMSettingsIntValues show_menu_separation = { "show_menu_separation", 1 };
 struct CWMSettingsIntValues show_virtual_keys = { "show_virtual_keys", 0 };
 struct CWMSettingsIntValues show_clock = { "show_clock", 1 };
-struct CWMSettingsIntValues show_battery = { "show_battery", 1 };
+struct CWMSettingsIntValues show_battery = { "show_battery", 0 };
 struct CWMSettingsLongIntValues batt_clock_color = { "batt_clock_color", DEFAULT_BATT_CLOCK_COLOR };
 struct CWMSettingsCharValues brightness_user_path = { "brightness_user_path", "" };
 struct CWMSettingsLongIntValues dim_timeout = { "dim_timeout", 60 };
 struct CWMSettingsLongIntValues blank_timeout = { "blank_timeout", 180 };
 
-struct CWMSettingsIntValues touch_to_validate = { "touch_to_validate", FULL_TOUCH_VALIDATION };
+struct CWMSettingsIntValues touch_to_validate = { "touch_to_validate", NO_TOUCH_SUPPORT };
 struct CWMSettingsLongIntValues scroll_sensitivity = { "scroll_sensitivity", SCROLL_SENSITIVITY_INIT };
 struct CWMSettingsLongIntValues touch_accuracy = { "touch_accuracy", TOUCH_ACCURACY_INIT };
 struct CWMSettingsLongIntValues slide_left_action = { "slide_left_action", 0 };

@@ -565,6 +565,13 @@ else ifeq ($(TARGET_DEVICE), mondrianwifi)
     BRIGHTNESS_SYS_FILE := "/sys/class/leds/lcd-backlight/brightness"
     BOARD_USE_B_SLOT_PROTOCOL := true
 
+#Mad Catz M.O.J.O (mojo)
+else ifeq ($(TARGET_DEVICE), mojo)
+    TARGET_COMMON_NAME := Mad Catz M.O.J.O
+    TARGET_SCREEN_HEIGHT := 1080
+    TARGET_SCREEN_WIDTH := 1920
+    BATTERY_LEVEL_PATH := ""
+
 #Google Galaxy Nexus (Samsung) - maguro, toro, toroplus (tuna common device)
 else ifneq ($(filter $(TARGET_DEVICE),maguro toro toroplus),)
     TARGET_COMMON_NAME := Galaxy Nexus ($(TARGET_DEVICE))
